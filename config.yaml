@@ -74,8 +74,6 @@ website:
     created_at: "2025-4-28"
     icp_filing: icp备案号
     public_security_filing: 公安备案号
-    bilibili_url: https://space.bilibili.com/xxx
-    gitee_url: https://gitee.com/xxx
     github_url: https://github.com/xxx/
     name: 昵称
     job: 工作
