@@ -9,7 +9,7 @@ email:
     port: 465
     from: 3263296956@qq.com
     nickname: Askanuo
-    secret: xxxxxxxxxxxxxxxx
+    secret: mbmqohmoplfwciie
     is_ssl: true
 es:
     url: http://127.0.0.1:9200
@@ -58,7 +58,7 @@ system:
     env: release
     router_prefix: api
     use_multipoint: true
-    sessions_secret: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    sessions_secret: J-51EzVnP3aH-H8EO5C41OKYmangA45-aSCi4hBro4s=
     oss_type: local
 upload:
     size: 20

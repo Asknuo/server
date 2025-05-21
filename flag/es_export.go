@@ -39,7 +39,7 @@ func ElasticsearchExport() error {
 		// 将数据追加到 response 的 Data 字段中
 		response.Data = append(response.Data, data)
 	}
- 
+
 	// 使用 Scroll API 进行后续的滚动查询，直到没有更多数据
 	for {
 		// 发起新的滚动查询，传入上一个查询返回的 ScrollId
