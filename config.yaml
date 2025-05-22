@@ -17,11 +17,11 @@ es:
     password: ""
     is_console_print: true
 gaode:
-    enable: false
-    key: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    enable: true
+    key: 8d804c46773430843e51f3163370fc75
 jwt:
-    access_token_secret: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-    refresh_token_secret: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    access_token_secret: hu8OciRVW-9bGcB4TNsrRijtofosMFKavuFQLoKsM74=
+    refresh_token_secret: _3JpO4H1zHA8uCiB8iA5QNBg6S2tNaA2bSGcnus25jI=
     access_token_expiry_time: 2h
     refresh_token_expiry_time: 7d
     issuer: go_blog
@@ -47,7 +47,7 @@ qq:
     enable: false
     app_id: "000000000"
     app_key: xxxxxxxxxxxxxxxx
-    redirect_uri: http://xxx.xxx/xxx
+    redirect_uri: http://xxx.xxx/login?flag=qq
 redis:
     address: 127.0.0.1:6379
     password: ""

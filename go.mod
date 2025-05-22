@@ -20,7 +20,7 @@ require (
 	github.com/cpuguy83/go-md2man/v2 v2.0.5 // indirect
 	github.com/elastic/elastic-transport-go/v8 v8.7.0 // indirect
 	github.com/elastic/go-elasticsearch v0.0.0 // indirect
-	github.com/elastic/go-elasticsearch/v8 v8.18.0 // indirect
+	github.com/elastic/go-elasticsearch/v8 v8.17.0 // indirect
 	github.com/gabriel-vasile/mimetype v1.4.8 // indirect
 	github.com/gin-contrib/sessions v1.0.3 // indirect
 	github.com/gin-contrib/sse v1.0.0 // indirect

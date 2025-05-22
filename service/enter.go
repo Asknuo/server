@@ -1,10 +1,12 @@
 package service
 
 type ServiceGroup struct {
-	BaseService
 	EsService
+	BaseService
 	JwtService
 	GaodeService
+	UserService
+	QQService
 }
 
 var ServiceGroupApp = new(ServiceGroup)
