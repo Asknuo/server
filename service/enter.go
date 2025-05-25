@@ -9,6 +9,9 @@ type ServiceGroup struct {
 	QQService
 	ImageService
 	ArticleService
+	CommentService
+	AdvertisementService
+	FriendLinkService
 }
 
 var ServiceGroupApp = new(ServiceGroup)

@@ -7,6 +7,9 @@ type ApiGroup struct {
 	UserApi
 	ImageApi
 	ArticleApi
+	CommentApi
+	AdvertisementApi
+	FriendLinkApi
 }
 
 var ApiGroupApp = new(ApiGroup)
@@ -17,3 +20,6 @@ var jwtService = service.ServiceGroupApp.JwtService
 var qqService = service.ServiceGroupApp.QQService
 var imageService = service.ServiceGroupApp.ImageService
 var articleService = service.ServiceGroupApp.ArticleService
+var commentService = service.ServiceGroupApp.CommentService
+var advertisementService = service.ServiceGroupApp.AdvertisementService
+var friendLinkService = service.ServiceGroupApp.FriendLinkService

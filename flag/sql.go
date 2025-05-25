@@ -14,7 +14,7 @@ func SQL() error {
 		&database.ArticleTag{},
 		&database.Comment{},
 		&database.Feedback{},
-		&database.FooterLink{},
+		&database.FriendLink{},
 		&database.FooterLink{},
 		&database.Image{},
 		&database.JwtBlacklist{},
