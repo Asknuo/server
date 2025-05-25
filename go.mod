@@ -27,6 +27,12 @@ require (
 )
 
 require (
+	github.com/tidwall/gjson v1.18.0 // direct
+	github.com/tidwall/match v1.1.1 // indirect
+	github.com/tidwall/pretty v1.2.0 // indirect
+)
+
+require (
 	github.com/BurntSushi/toml v1.5.0 // indirect
 	github.com/alex-ant/gomath v0.0.0-20160516115720-89013a210a82 // indirect
 	github.com/bytedance/sonic v1.13.2 // indirect
