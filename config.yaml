@@ -50,7 +50,7 @@ qq:
     redirect_uri: http://xxx.xxx/login?flag=qq
 redis:
     address: 127.0.0.1:6379
-    password: ""
+    password: 051102ydq
     db: 0
 system:
     host: 127.0.0.1
